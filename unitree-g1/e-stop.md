@@ -12,9 +12,7 @@
 G1側は GHコネクタ 2ピン (GHR-02V-S) です．
 もう片側は緊急停止スイッチ（Ａ接点 / Normally Open）に接続します．
 
-```
-⚠️ G1の仕様上，指定端子を短絡することで緊急停止がかかるため，Ａ接点のスイッチを使う必要があります．そのため，断線や接触不良等があった場合には，緊急停止が正しく行えないというリスクがあります．ご注意ください．
-```
+⚠️ G1の仕様上，指定端子を短絡することで緊急停止がかかるため，Ａ接点のスイッチを使う必要があります．そのため，断線や接触不良等があった場合には，緊急停止が正しく行えない可能性があります．ご注意ください．
 
 写真は作成例です．
 GHコネクタに使える電線が細いため，XHコネクタを介して，途中で太い電線に変わるようにしています．
@@ -111,9 +109,10 @@ GHコネクタに使える電線が細いため，XHコネクタを介して，�
 
 ## 緊急停止時の挙動
 
-<p align="center">
-  <video src="https://github.com/mirai-humanoid/public-docs/raw/refs/heads/main/unitree-g1/media/estop/estop.mp4" width="80%" controls></video>
-</p>
+
+https://github.com/user-attachments/assets/5e98cac5-4905-4435-852b-6aef7e57db53
+
+[動画（オンライン）](https://github.com/user-attachments/assets/5e98cac5-4905-4435-852b-6aef7e57db53) / [動画（ローカル）](./media/estop/estop.mp4)
 
 緊急停止がかかると，全身が脱力状態になり，G1のステータスLEDが赤く点滅します（通常時は青色点灯）．
 
